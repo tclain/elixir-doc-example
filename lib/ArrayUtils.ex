@@ -10,6 +10,10 @@ defmodule ArrayUtils do
 
   @doc """
   Returns an array with all elements buts the first
+
+  ## Examples
+  iex> ArrayUtils.removeHead([1,2])
+  [2]
   """
   def removeHead([head | rest]) do
     rest
